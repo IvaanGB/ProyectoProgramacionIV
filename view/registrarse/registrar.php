@@ -62,7 +62,8 @@
                                       
                                     </select>
                                   </div>
-                              <button type="submit" class="btn btn-primary" href="index.php?pag=7">Enviar</button>        
+                              <button type="submit" class="btn btn-primary" href="index.php?pag=7">Siguiente</button>
+                              <br/>   
                             </form>
                     </div>
                 </div>

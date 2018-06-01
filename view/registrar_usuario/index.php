@@ -17,6 +17,8 @@
                                     <input class="form-control" name="password" type="password" value="" required>
                                 </div>
 
+                            <input type="hidden" class="form-control" id="idPersona" name="idPersona" value="">
+
                         
                             
                             <input type="hidden" class="form-control" id="idEstadoUsuario" name="idEstadoUsuario">
@@ -27,13 +29,9 @@
                                       <option value="26">Administrador</option>
                                       <option value="27">Operador</option>
                                       <option value="28">Cliente</option>
-                                      
                                     </select>
-
                           </div>
-
-
-                      
+                          <br/>
                           <button type="submit" class="btn btn-primary">Guardar</button>
                         </form>
                     </div>

@@ -2,7 +2,7 @@
     session_start(); 
     require_once("servicios.php"); 
     $rutas = array("view/producto/index", "view/carrito/mostrar","view/producto/listar",
-                    "view/producto/create","view/producto/update","view/login/index","view/registrarse/registrar","view/registrar_usuario/index");
+                    "view/producto/create","view/producto/update","view/login/index","view/registrarse/registrar","view/registrar_usuario/index","view/usuario/infoclientes","view/usuario/infousuarios");
     if(isset($_GET['pag'])){                  
        $pag =$_GET['pag'];       
     }else{           
@@ -63,9 +63,9 @@
 			        </a>
 			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 			          <a class="dropdown-item" href="index.php?pag=2">Productos</a>
-			          <a class="dropdown-item" href="#">Clientes</a>
+			          <a class="dropdown-item" href="index.php?pag=8">Clientes</a>
 			           <a class="dropdown-item" href="#">Facturas</a>    
-			           <a class="dropdown-item" href="#">Usuarios </a>
+			           <a class="dropdown-item" href="index.php?pag=9">Usuarios</a>
 			           <a class="dropdown-item" href="#">Parametros </a>
 			         </div>
 			      </li>
@@ -89,7 +89,7 @@
 				          <i class="fa fa-user"></i> <?php echo $usuario; ?>
 				        </a>
 				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-				          <a class="dropdown-item" href="#"><i class="fa fa-cogs fa-fw"></i> Ver Perfil</a>
+				          <a class="dropdown-item" href="index99.php"><i class="fa fa-cogs fa-fw"></i> Ver Perfil</a>
 				          <a class="dropdown-item" href="#"><i class="fa fa-lock fa-fw"></i> Cambiar Password</a>
 				          <div class="dropdown-divider"></div>
 				          <a class="dropdown-item" href="controller/login/cerrarSesion.php"><i class="fa fa-sign-out-alt fa-fw"></i> Salir</a>

@@ -6,6 +6,7 @@
 			public $password;
 			public $idEstadoUsuario;
 			public $idRol;
+
 			
 			
 		}
