@@ -10,6 +10,15 @@ function numeros(e){
     return patron.test(tecla_final);
 }
 
+function noEspacios(e){
+    var evento_key = window.event.keyCode;
+    if (evento_key == '32' ) //comparo tecla space
+        {
+            return false;
+        }
+}
+
+
 function soloLetras(e){
    key = e.keyCode || e.which;
    tecla = String.fromCharCode(key).toLowerCase();
