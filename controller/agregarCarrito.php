@@ -16,4 +16,4 @@ include_once("../model/carrito.php");
 	$_SESSION['ncar']=count($carrito);
 	$_SESSION['carrito']=$carrito;
 		
-    header("location:http://localhost/tienda");
+    header("location:../../index.php");

@@ -10,6 +10,6 @@
 	$p->create($params);
 
 	
-	 header("location:http://localhost/tienda");
+	 header("location:../../index.php");
 		
  ?>

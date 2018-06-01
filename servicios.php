@@ -6,7 +6,7 @@ class Conexion {
   private $host = 'localhost';
   private $user = 'root';
   private $pass = '';
-  private $db = 'tienda';
+  private $db = 'tienda1';
    
   // Constructor privado
   private function __construct()

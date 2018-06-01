@@ -48,9 +48,7 @@
 				      <li class="nav-item">
 				        <a class="nav-link ml-1 pl-0" href="index.php?pag=1"><i class="fa fa-shopping-cart"></i> Ver Carrito (<?php echo $ncar;?>)</a>
 				      </li>
-				      <li class="nav-item ml-3">
-				         <a href="index.php" class="nav-link">Productos</a>
-				     </li>
+
 				 </ul>
 
 				 <?php  
